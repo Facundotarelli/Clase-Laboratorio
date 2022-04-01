@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : ClaseApoyo1.c
+ Author      : Facundo
+ Version     :
+ Copyright   : MIT
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int numeroUno, numeroDos;
+	int numeroTres, numeroCuatro;
+	int numeroCinco;
+
+	scanf("Ingrese un numero \n", numeroUno);
+
+
+
+	return EXIT_SUCCESS;
+}

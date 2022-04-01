@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Clase1.c
+ Author      : Facundo
+ Version     :
+ Copyright   : MIT
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define SALUDO "\Hola mundo Eclipse!!!\n" //Sin ;
+
+int main(void) {
+	//puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
+	printf(SALUDO);
+
+	printf("Hola mundo Eclipse \n");
+
+
+
+	return EXIT_SUCCESS;
+}

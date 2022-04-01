@@ -1,0 +1,244 @@
+Info: Nothing to build for Clase1
+10:23:57 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+gcc -o Clase1.exe "src\\Clase1.o" 
+10:25:11 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+10:26:38 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:19:9: warning: unknown escape sequence: '\H'
+   19 |  printf(SALUDO);
+      |         ^~~~~~
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+10:54:30 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:19:10: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  char c= "a";
+      |          ^~~
+..\src\Clase1.c:22:9: warning: unknown escape sequence: '\H'
+   22 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:30:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   30 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+10:58:48 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:19:10: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  char c= "a";
+      |          ^~~
+..\src\Clase1.c:22:9: warning: unknown escape sequence: '\H'
+   22 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:30:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   30 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+11:00:10 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:19:10: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   19 |  char c= "a";
+      |          ^~~
+..\src\Clase1.c:22:9: warning: unknown escape sequence: '\H'
+   22 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:30:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   30 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:04:05 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:22:9: warning: unknown escape sequence: '\H'
+   22 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:30:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   30 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:08:12 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -o Clase1.exe "src\\Clase1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: cannot open output file Clase1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:24:00 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+Info: Nothing to build for Clase1
+11:26:40 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:25:9: warning: unknown escape sequence: '\H'
+   25 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:33:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   33 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+11:28:32 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:25:9: warning: unknown escape sequence: '\H'
+   25 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:33:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   33 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+gcc -o Clase1.exe "src\\Clase1.o" 
+12:01:14 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:27:9: warning: unknown escape sequence: '\H'
+   27 |  printf(SALUDO);
+      |         ^~~~~~
+..\src\Clase1.c:35:74: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+   35 |  printf ("\n El numero int es: %d, pi: %f y el char es: %c. Otro entero %d\n\n", numero, pi, c);
+      |                                                                         ~^
+      |                                                                          |
+      |                                                                          int
+..\src\Clase1.c:39:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   39 |  scanf("%d", numeroUno);
+      |         ~^   ~~~~~~~~~
+      |          |   |
+      |          |   int
+      |          int *
+..\src\Clase1.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   43 |   scanf("%d", numeroDos);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:22:6: warning: variable 'resultado' set but not used [-Wunused-but-set-variable]
+   22 |  int resultado;
+      |      ^~~~~~~~~
+..\src\Clase1.c:39:2: warning: 'numeroUno' is used uninitialized in this function [-Wuninitialized]
+   39 |  scanf("%d", numeroUno);
+      |  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\Clase1.c:43:3: warning: 'numeroDos' is used uninitialized in this function [-Wuninitialized]
+   43 |   scanf("%d", numeroDos);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+12:02:37 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:39:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   39 |   scanf("%d", numeroUno);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:43:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   43 |   scanf("%d", numeroDos);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:20:6: warning: unused variable 'numero' [-Wunused-variable]
+   20 |  int numero;
+      |      ^~~~~~
+..\src\Clase1.c:39:3: warning: 'numeroUno' is used uninitialized in this function [-Wuninitialized]
+   39 |   scanf("%d", numeroUno);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+..\src\Clase1.c:43:3: warning: 'numeroDos' is used uninitialized in this function [-Wuninitialized]
+   43 |   scanf("%d", numeroDos);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+12:03:28 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:34:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   34 |   scanf("%d", numeroUno);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   38 |   scanf("%d", numeroDos);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:34:3: warning: 'numeroUno' is used uninitialized in this function [-Wuninitialized]
+   34 |   scanf("%d", numeroUno);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+..\src\Clase1.c:38:3: warning: 'numeroDos' is used uninitialized in this function [-Wuninitialized]
+   38 |   scanf("%d", numeroDos);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+12:04:11 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+..\src\Clase1.c: In function 'main':
+..\src\Clase1.c:34:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   34 |   scanf("%d", numeroUno);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:38:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   38 |   scanf("%d", numeroDos);
+      |          ~^   ~~~~~~~~~
+      |           |   |
+      |           |   int
+      |           int *
+..\src\Clase1.c:34:3: warning: 'numeroUno' is used uninitialized in this function [-Wuninitialized]
+   34 |   scanf("%d", numeroUno);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+..\src\Clase1.c:38:3: warning: 'numeroDos' is used uninitialized in this function [-Wuninitialized]
+   38 |   scanf("%d", numeroDos);
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
+12:06:03 **** Incremental Build of configuration Debug for project Clase1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Clase1.o" "..\\src\\Clase1.c" 
+gcc -o Clase1.exe "src\\Clase1.o" 
+Info: Nothing to build for Clase1
